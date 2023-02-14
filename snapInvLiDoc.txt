@@ -1,0 +1,58 @@
+Inventory List Document
+File Name: snapInvLiDoc.txt
+
+Parties = {
+	Plates: 0;
+	Plasticware: 0;
+	Napkins: 0;
+	B-Day Shirts Total: 0;
+	B-Day Shirts(S): 0;
+	B-Day Shirts(M): 0;
+	B-Day Shirts(L): 0;
+	Tableclothes: 0;
+	Nametags: 0;
+}
+Gift Bags = {
+	Pencils: 0;
+	Bags: 0;
+	Kits: 0;
+	Bracelets: 0;
+	Stickers: 0;
+	Tattoos: 0;
+	Camp Flyers: 0;
+}
+Slime Ingredients = {
+	Bowls: 0;
+	Shaving Cream: 0;
+	Glue: 0;
+	Baking Soda: 0;
+	Contact Solution: 0;
+}
+Cleaning Supplies = {
+	Surface Cleaner: 0;
+	Paper Towels: 0;
+	Clorox Wipes: 0;
+	Black Bags(L): 0;
+	White Bags(S): 0;
+	Windex: 0;
+	Dish Soap: 0;
+	Toilet Cleaner: 0;
+}
+Random = {
+	Snacks: 0;
+	Kleenex: 0;
+	Ziploc Total: 0;
+	Ziploc Sandwich: 0;
+	Ziploc Quart: 0;
+	Ziploc Gallon: 0;
+	Water Cups: 0;
+	WEDO Extras: 0;
+	USB'S: 0;
+	Confetti: 0;
+	Paper Bags: 0;
+	Flying Toys: 0;
+	Box Crayons: 0;
+	Color Notebooks: 0;
+	Toys: 0;
+	Animal Toys: 0;
+}

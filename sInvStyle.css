@@ -1,6 +1,56 @@
-body {
-	
+header {
+	grid-area: header;
+}
+div {
+	grid-area: div;
 }
 main {
-	
+	grid-area: main;
+}
+aside {
+	grid-area: aside;
+}
+footer {
+	grid-area: footer;
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+}
+input {
+	background-color: #C8A182;
+	border-radius: 5px 5px;
+	border-style: double;
+	border-width: 1px;
+	border-color: #9E766C;
+}
+button {
+	grid-area: button;
+	background-color: #3E8F23;
+	border: 1px;
+	border-style: double;
+	border-radius: 5px 5px;
+}
+.parta {
+	grid-area: oside;
+}
+.partb {
+	grid-area: main;
+}
+.partc {
+	grid-area: aside;
+}
+#wrapper {
+	display: grid;
+	background-color: #C57336;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px auto;
+	grid-template-areas: 
+		"header  header  header"  
+		"div     div     div"     
+		"oside   main    aside" 
+		"noteb   noteb   noteb"  
+		"button  button  button"
+		"footer  footer  footer";  
 }
