@@ -15,33 +15,18 @@
 			<p>This is an Inventory tracking website to be used by Snapology, Minnapolis location staff. Below you will enter the number of ounces, gallons, bags, or individual objects into the box provided. You will then enter any special comments for items needed or other circumstances you wish to provide awareness to. Click the submit button to send the email to Aaron Hagebak and update the Inventory list.</p>
 			<hr>
 	</div>	
-	<script type="text">
-		while True => {
-			let element = snapInvLiDoc.txt.getElementById("myLabel");
-			alert("Label for = " + element.getAttribute('data-binding'))
-		}
-	</script>
 	<main>
 		<header>Parties</header>
 			<ul>
-				
-				<li><label id="Category" for="Plates" data-binding="Plates">Current Number </label>Plates:&nbsp;<input type="number" id="Plates" name="Plates" size=5></li> 
-
-				<li><label id="Category" for="Plasticware" data-binding="Plasticware">Current Number </label>Plasticware:&nbsp;<input type="number" id="Plasticware" name="Plasticware" size=5></li>
-
-				<li><label id="Napkins" for="Napkins" data-binding="Napkins">Current Number </label>Napkins:&nbsp;<input type="number" id="Napkins" name="Napkins" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts Total" data-binding="B-Day Shirts Total">Current Number </label>B-Day Shirts Total:&nbsp;<input type="number" id="B-Day Shirts Total" name="B-Day Shirts Total" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts(S)" data-binding="B-Day Shirts(S)">Current Number </label>B-Day Shirts(S):&nbsp;<input type="number" id="B-Day Shirts(S)" name="B-Day Shirts(S)" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts(M)" data-binding="B-Day Shirts(M)">Current Number </label>B-Day Shirts(M):&nbsp;<input type="number" id="B-Day Shirts(M)" name="B-Day Shirts(M)" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts(L)" data-binding="B-Day Shirts(L)">Current Number </label>B-Day Shirts(L):&nbsp;<input type="number" id="B-Day Shirts(L)" name="B-Day Shirts(L)" size=5></li>
-
-				<li><label id="Category" for="Tableclothes" data-binding="Tableclothes">Current Number </label>Tableclothes:&nbsp;<input type="number" id="Tableclothes" name="Tableclothes" size=5></li>
-
-				<li><label id="Category" for="Nametags" data-binding="Nametags">Current Number </label>Nametags:&nbsp;<input type="number" id="Nametags" name="Nametags" size=5></li>
+				<li>Plates:&nbsp;<input type="number" name="Plates" size=5></li> 
+				<li>Plasticware:&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>Napkins:&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>B-Day Shirts Total:&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>B-Day Shirts(S):&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>B-Day Shirts(M):&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>B-Day Shirts(L):&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>Tableclothes:&nbsp;<input type="number" name="Plates" size=5></li>
+				<li>Nametags:&nbsp;<input type="number" name="Plates" size=5></li>
 			</ul>
 		<br>
 		<header>Gift Bags</header>
@@ -101,16 +86,7 @@
 		<header>Additional Needs and Notes</header>
 		<input type="text" name="Concern Box">
 	</noteb>
-	<dutton>
-		<button id="but2"><em>Submit</em></button>
-		<button id="but3" onclick="show();">Current Amounts</button>
-	</dutton>
-	<script>
-		let show = () => {
-			let element = document.getElementById("Category");
-			alert("Label for " + element.getAttribute('data-binding'));
-		}
-	</script>
+	<button><em>Submit</em></button>
 	<footer>
 		<br>
 		<a href="https://saintpaul.edu">Aaron, Owner</a><br>

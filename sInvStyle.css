@@ -1,6 +1,9 @@
 header {
 	grid-area: header;
 }
+header label{
+
+}
 div {
 	grid-area: div;
 }
@@ -26,11 +29,22 @@ input {
 	border-color: #9E766C;
 }
 button {
-	grid-area: button;
 	background-color: #3E8F23;
 	border: 1px;
 	border-style: double;
 	border-radius: 5px 5px;
+}
+.but1 {
+	grid-area: button1;
+}
+.but2 {
+	grid-area: button2;
+}
+.but3 {
+	grid-area: button3;
+}
+.but4 {
+	grid-area: button4;
 }
 .parta {
 	grid-area: oside;
@@ -51,6 +65,6 @@ button {
 		"div     div     div"     
 		"oside   main    aside" 
 		"noteb   noteb   noteb"  
-		"button  button  button"
+		"button1 button2 button3"
 		"footer  footer  footer";  
 }
