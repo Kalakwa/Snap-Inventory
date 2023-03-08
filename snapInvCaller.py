@@ -35,14 +35,14 @@ g6 = 'tattoos'
 g7 = 'campFlyers'
 g8 = 'Buttons'
 
-Pencils = snapInvLiDoc.Gift_Bags[g1]
-bags = snapInvLiDoc.Gift_Bags[g2]
-Kits = snapInvLiDoc.Gift_Bags[g3]
-bracelets = snapInvLiDoc.Gift_Bags[g4]
-stickers = snapInvLiDoc.Gift_Bags[g5]
-tattoos = snapInvLiDoc.Gift_Bags[g6]
-campFlyers = snapInvLiDoc.Gift_Bags[g7]
-buttons = snapInvLiDoc.Gift_Bags[g8]
+Pencils = snapInvLiDoc.GiftBags[g1]
+bags = snapInvLiDoc.GiftBags[g2]
+Kits = snapInvLiDoc.GiftBags[g3]
+bracelets = snapInvLiDoc.GiftBags[g4]
+stickers = snapInvLiDoc.GiftBags[g5]
+tattoos = snapInvLiDoc.GiftBags[g6]
+campFlyers = snapInvLiDoc.GiftBags[g7]
+buttons = snapInvLiDoc.GiftBags[g8]
 
 #Slime Ingredients dictionary call and variable set
 s1 = 'Bowls'
@@ -51,11 +51,11 @@ s3 = 'Glue'
 s4 = 'Baking Soda'
 s5 = 'Contact Solution'
 
-Bowls = snapInvLiDoc.Slime_Ingredients[s1]
-shavingCream = snapInvLiDoc.Slime_Ingredients[s2]
-Glue = snapInvLiDoc.Slime_Ingredients[s3]
-bakingSoda = snapInvLiDoc.Slime_Ingredients[s4]
-contactSolution = snapInvLiDoc.Slime_Ingredients[s5]
+Bowls = snapInvLiDoc.SlimeIngredients[s1]
+shavingCream = snapInvLiDoc.SlimeIngredients[s2]
+Glue = snapInvLiDoc.SlimeIngredients[s3]
+bakingSoda = snapInvLiDoc.SlimeIngredients[s4]
+contactSolution = snapInvLiDoc.SlimeIngredients[s5]
 
 #Cleaning Supplies dictionary call and variable set
 c1 = 'Surface Cleaner'
@@ -71,18 +71,18 @@ c10 = 'Toilet Paper'
 c11 = 'Gloves'
 c12 = 'Swiffer Wipes'
 
-surfaceCleaner = snapInvLiDoc.Cleaning_Supplies[c1]
-towels = snapInvLiDoc.Cleaning_Supplies[c2]
-clorox = snapInvLiDoc.Cleaning_Supplies[c3]
-blackBags = snapInvLiDoc.Cleaning_Supplies[c4]
-whiteBags = snapInvLiDoc.Cleaning_Supplies[c5]
-Windex = snapInvLiDoc.Cleaning_Supplies[c6]
-dishSoap = snapInvLiDoc.Cleaning_Supplies[c7]
-toiletCleaner = snapInvLiDoc.Cleaning_Supplies[c8]
-handSoap = snapInvLiDoc.Cleaning_Supplies[c9]
-toiletPaper = snapInvLiDoc.Cleaning_Supplies[c10]
-gloves = snapInvLiDoc.Cleaning_Supplies[c11]
-swifferWipes = snapInvLiDoc.Cleaning_Supplies[c12]
+surfaceCleaner = snapInvLiDoc.CleaningSupplies[c1]
+towels = snapInvLiDoc.CleaningSupplies[c2]
+clorox = snapInvLiDoc.CleaningSupplies[c3]
+blackBags = snapInvLiDoc.CleaningSupplies[c4]
+whiteBags = snapInvLiDoc.CleaningSupplies[c5]
+Windex = snapInvLiDoc.CleaningSupplies[c6]
+dishSoap = snapInvLiDoc.CleaningSupplies[c7]
+toiletCleaner = snapInvLiDoc.CleaningSupplies[c8]
+handSoap = snapInvLiDoc.CleaningSupplies[c9]
+toiletPaper = snapInvLiDoc.CleaningSupplies[c10]
+gloves = snapInvLiDoc.CleaningSupplies[c11]
+swifferWipes = snapInvLiDoc.CleaningSupplies[c12]
 
 #Random dictionary call and variable set
 r1 = 'Snacks'

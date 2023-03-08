@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+	padding: 2em;
+}
+h2 {
+	border-bottom: black;
+}
+hr {
+	background-color: #63CC63;
+}
+ul {
+	list-style-type: none;
+	padding: .5em;
+}
+li {
+	padding-bottom: 1em;
+}
+button {
+	background-color: #59c977;
+	border-radius: 1em 0 1em 0;
+	border-top-color: #c96259;
+	border-left-color: #c96259;
+}
+a {
+	text-decoration: none;
+}
+footer {
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	margin-top: auto;
+}
+#wrapper {
+	background-color: #C57336;
+}

@@ -5,7 +5,7 @@
 	<title>Snapology Inventory Tracker</title>
 	<meta charset="utf-8">
 </head>
-<body id ="wrapper">
+<body>
 	<header>
 		<h1>Snapology Inventory List</h1>
 		<hr>
@@ -15,102 +15,139 @@
 			<p>This is an Inventory tracking website to be used by Snapology, Minnapolis location staff. Below you will enter the number of ounces, gallons, bags, or individual objects into the box provided. You will then enter any special comments for items needed or other circumstances you wish to provide awareness to. Click the submit button to send the email to Aaron Hagebak and update the Inventory list.</p>
 			<hr>
 	</div>	
-	<script type="text">
-		while True => {
-			let element = snapInvLiDoc.txt.getElementById("myLabel");
-			alert("Label for = " + element.getAttribute('data-binding'))
-		}
-	</script>
+	<form id="snapinv" name="Snapology-Inventory-form" accept-charset="utf-8" action="https://formspree.io/f/xoqzlalj" method="POST">
 	<main>
-		<header>Parties</header>
-			<ul>
-				
-				<li><label id="Category" for="Plates" data-binding="Plates">Current Number </label>Plates:&nbsp;<input type="number" id="Plates" name="Plates" size=5></li> 
+		<table>
+			<tr>
+				<th><header>Parties</header></th>
+				<th><header>Gift Bags</header></th>
+				<th><header>Slime Ingredients</header></th>
+			</tr>
+			<tr>
+				<td><label>Plates: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br> 
+				<label>PlasticwareFork: </label>&nbsp;<input type="number"  name="PlasticwareFork" size=5>
+				<br>
+				<label>PlasticwareSpoon: </label>&nbsp;<input type="number"  name="PlasticwareSpoon" size=5>
+				<br>
+				<label>PlasticwareKniv: </label>&nbsp;<input type="number"  name="PlasticwareKniv" size=5>
+				<br>
+				<label>Napkins: </label>&nbsp;<input type="number" name="Napkins" size=5>
+				<br>
+				<label>B-Day Shirts Total: </label>&nbsp;<input type="number" name="B-Day Shirts Total" size=5>
+				<br>
+				<label>B-Day Shirts(S): </label>&nbsp;<input type="number" name="B-Day Shirts(S)" size=5>
+				<br>
+				<label>B-Day Shirts(M): </label>&nbsp;<input type="number" name="B-Day Shirts(M)" size=5>
+				<br>
+				<label>B-Day Shirts(L): </label>&nbsp;<input type="number" name="B-Day Shirts(L)" size=5>
+				<br>
+				<label>Tableclothes: </label>&nbsp;<input type="number" name="Tableclothes" size=5>
+				<br>
+				<label>Nametags: </label>&nbsp;<input type="number" name="Nametags" size=5>
+				</td>
 
-				<li><label id="Category" for="Plasticware" data-binding="Plasticware">Current Number </label>Plasticware:&nbsp;<input type="number" id="Plasticware" name="Plasticware" size=5></li>
+				<td><label>Pencils: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				<label>Bags: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				<label>Kits: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				<label>Bracelets: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				<label>Stickers: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				<label>Tattoos: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				<label>Camp Flyers: </label>&nbsp;<input type="number" name="Plates" size=5>
+				<br>
+				</td>
+			
+				<td><label>Bowls: </label>&nbsp;<input type="number" name="Bowls" size=5>
+				<br>
+				<label>Shaving Cream: </label>&nbsp;<input type="number" name="Shaving Cream" size=5>
+				<br>
+				<label>Glue: </label>&nbsp;<input type="number" name="Glue" size=5>
+				<br>
+				<label>Baking Soda: </label>&nbsp;<input type="number" name="Baking Soda" size=5>
+				<br>
+				<label>Contact Solution: </label>&nbsp;<input type="number" name="Contact Solution" size=5>
+				</td>
+			</tr>
+			<tr>	
+				<th><header>Cleaning Supplies</header></th>
+				<th><header>Random</header></th>
+			</tr>
+			<tr>
+				<td>
+				<label>Surface Cleaner: </label>&nbsp;<input type="number" name="Surface Cleaner" size=5>
+				<br>
+				<label>Paper Towels: </label>&nbsp;<input type="number" name="Paper Towels" size=5>
+				<br>
+				<label>Clorox Wipes: </label>&nbsp;<input type="number" name="Clorox Wipes" size=5>
+				<br>
+				<label>Black Bags(L): </label>&nbsp;<input type="number" name="Black Bags(L)" size=5>
+				<br>
+				<label>White Bags(S): </label>&nbsp;<input type="number" name="White Bags(S)" size=5>
+				<br>
+				<label>Windex: </label>&nbsp;<input type="number" name="Windex" size=5>
+				<br>
+				<label>Dish Soap: </label>&nbsp;<input type="number" name="Dish Soap" size=5>
+				<br>
+				<label>Toilet Cleaner: </label>&nbsp;<input type="number" name="Toilet Cleaner" size=5>
+				</td>
 
-				<li><label id="Napkins" for="Napkins" data-binding="Napkins">Current Number </label>Napkins:&nbsp;<input type="number" id="Napkins" name="Napkins" size=5></li>
+				<td><label>Snacks: </label>&nbsp;<input type="number" name="Snacks" size=5>
+				<br>
+				<label>Kleenex: </label>&nbsp;<input type="number" name="Kleenex" size=5>
+				<br>
+				<label>Ziploc Total: </label>&nbsp;<input type="number" name="Ziploc Total" size=5>
+				<br>
+				<label>Ziploc Sandwich: </label>&nbsp;<input type="number" name="Ziploc Sandwich" size=5>
+				<br>
+				<label>Ziploc Quart: </label>&nbsp;<input type="number" name="Ziploc Quart" size=5>
+				<br>
+				<label>Ziploc Gallon: </label>&nbsp;<input type="number" name="Ziploc Gallon" size=5>
+				<br>
+				<label>Water Cups: </label>&nbsp;<input type="number" name="Water Cups" size=5>
+				<br>
+				<label>WEDO Extras: </label>&nbsp;<input type="number" name="WEDO Extras" size=5>
+				</td>
 
-				<li><label id="Category" for="B-Day Shirts Total" data-binding="B-Day Shirts Total">Current Number </label>B-Day Shirts Total:&nbsp;<input type="number" id="B-Day Shirts Total" name="B-Day Shirts Total" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts(S)" data-binding="B-Day Shirts(S)">Current Number </label>B-Day Shirts(S):&nbsp;<input type="number" id="B-Day Shirts(S)" name="B-Day Shirts(S)" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts(M)" data-binding="B-Day Shirts(M)">Current Number </label>B-Day Shirts(M):&nbsp;<input type="number" id="B-Day Shirts(M)" name="B-Day Shirts(M)" size=5></li>
-
-				<li><label id="Category" for="B-Day Shirts(L)" data-binding="B-Day Shirts(L)">Current Number </label>B-Day Shirts(L):&nbsp;<input type="number" id="B-Day Shirts(L)" name="B-Day Shirts(L)" size=5></li>
-
-				<li><label id="Category" for="Tableclothes" data-binding="Tableclothes">Current Number </label>Tableclothes:&nbsp;<input type="number" id="Tableclothes" name="Tableclothes" size=5></li>
-
-				<li><label id="Category" for="Nametags" data-binding="Nametags">Current Number </label>Nametags:&nbsp;<input type="number" id="Nametags" name="Nametags" size=5></li>
-			</ul>
-		<br>
-		<header>Gift Bags</header>
-			<ul>
-				<li>Pencils:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Bags:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Kits:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Bracelets:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Stickers:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Tattoos:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Camp Flyers:&nbsp;<input type="number" name="Plates" size=5></li>
-			</ul>
+				<td>
+				<label>USB'S: </label>&nbsp;<input type="number" name="USB'S" size=5>
+				<br>
+				<label>Confetti: </label>&nbsp;<input type="number" name="Confetti" size=5>
+				<br>
+				<label>Paper Bags: </label>&nbsp;<input type="number" name="Paper Bags" size=5>
+				<br>
+				<label>Flying Toys: </label>&nbsp;<input type="number" name="Flying Toys" size=5>
+				<br>
+				<label>Box Crayons: </label>&nbsp;<input type="number" name="Box Crayons" size=5>
+				<br>
+				<label>Color Notebooks: </label>&nbsp;<input type="number" name="Color Notebooks" size=5>
+				<br>
+				<label>Toys: </label>&nbsp;<input type="number" name="Toys" size=5>
+				<br>
+				<label>Animal Toys: </label>&nbsp;<input type="number" name="Animal Toys" size=5>
+				<br>
+				</td>
+			</tr>
+		<tr></tr>
+		<tr>
+			<th></th>
+			<th>
+				<label id="noteb">Additional Needs and Notes: </label><br><input type="text" id="concernBox"></p>
+				<br>
+				<button type="submit"><em>Submit</em></button>
+				<br>
+				<button>Current Amounts</button>
+				<br>
+				<a id ="pagesel" href="snapInvSelect.html"><em>Selection Page</em></button>
+			</th>
+		</table>
 	</main>
-	<aside>
-		<header>Slime Ingredients</header>
-			<ul>
-				<li>Bowls:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Shaving Cream:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Glue:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Baking Soda:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Contact Solution:&nbsp;<input type="number" name="Plates" size=5></li>
-			</ul>
-		<header>Cleaning Supplies</header>
-			<ul>
-				<li>Surface Cleaner:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Paper Towels:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Clorox Wipes:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Black Bags(L):&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>White Bags(S):&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Windex:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Dish Soap:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Toilet Cleaner:&nbsp;<input type="number" name="Plates" size=5></li>
-			</ul>
-	</aside>
-	<oside>		
-		<header>Random</header>
-			<ul>
-				<li>Snacks:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Kleenex:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Ziploc Total:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Ziploc Sandwich:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Ziploc Quart:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Ziploc Gallon:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Water Cups:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>WEDO Extras:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>USB'S:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Confetti:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Paper Bags:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Flying Toys:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Box Crayons:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Color Notebooks:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Toys:&nbsp;<input type="number" name="Plates" size=5></li>
-				<li>Animal Toys:&nbsp;<input type="number" name="Plates" size=5></li>
-			</ul>
-	</oside>
-	<noteb>
-		<header>Additional Needs and Notes</header>
-		<input type="text" name="Concern Box">
-	</noteb>
-	<dutton>
-		<button id="but2"><em>Submit</em></button>
-		<button id="but3" onclick="show();">Current Amounts</button>
-	</dutton>
-	<script>
-		let show = () => {
-			let element = document.getElementById("Category");
-			alert("Label for " + element.getAttribute('data-binding'));
-		}
-	</script>
+	</form>
 	<footer>
 		<br>
 		<a href="https://saintpaul.edu">Aaron, Owner</a><br>

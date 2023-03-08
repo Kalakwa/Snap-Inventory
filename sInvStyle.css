@@ -7,19 +7,25 @@ header label{
 div {
 	grid-area: div;
 }
+body {
+	background-image: linear-gradient(#DF9768, #4C9843);
+	margin: 1;
+}
 main {
-	grid-area: main;
+	display: inline-block;
+	text-align: center;
+	margin: 1;
 }
 aside {
 	grid-area: aside;
 }
 footer {
-	grid-area: footer;
 	font-size: .7em;
 	font-style: italic;
 	text-align: center;
 	padding: 1em;
 	text-decoration: none;
+	margin-top: auto;
 }
 input {
 	background-color: #C8A182;
@@ -29,42 +35,45 @@ input {
 	border-color: #9E766C;
 }
 button {
-	background-color: #3E8F23;
+	background-color: #59c977;
 	border: 1px;
 	border-style: double;
 	border-radius: 5px 5px;
 }
+a {
+	text-decoration: none;
+}
+table {
+	grid-area: main;
+}
 .but1 {
 	grid-area: button1;
+	text-align: center;
 }
 .but2 {
 	grid-area: button2;
+	text-align: center;
 }
 .but3 {
 	grid-area: button3;
-}
-.but4 {
-	grid-area: button4;
-}
-.parta {
-	grid-area: oside;
+	text-align: center;
 }
 .partb {
 	grid-area: main;
+	text-align: left-top;
 }
-.partc {
-	grid-area: aside;
+#concernBox {
+	height:100px;
+	font-size:11pt;
+	word-break: break-all;
 }
-#wrapper {
-	display: grid;
-	background-color: #C57336;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px auto;
-	grid-template-areas: 
-		"header  header  header"  
-		"div     div     div"     
-		"oside   main    aside" 
-		"noteb   noteb   noteb"  
-		"button1 button2 button3"
-		"footer  footer  footer";  
+#pagesel {
+	border-style: solid;
+	background-color: #59c977;
+	border-radius: 5px 5px;
+	border-width: thin;
+	font-size: 11pt;
+	font-weight: lighter;
+	color: black;
+	padding: .1em;
 }

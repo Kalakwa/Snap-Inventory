@@ -14,7 +14,7 @@ Parties = {
 	"Tableclothes":11,
 	"Nametags": 1820
 }
-Gift_Bags = {
+GiftBags = {
 	"Pencils": 424,
 	"bags": 270,
 	"Kits": 180,
@@ -24,14 +24,14 @@ Gift_Bags = {
 	"campFlyers": 0,
 	"Buttons": 100
 }
-Slime_Ingredients = {
+SlimeIngredients = {
 	"Bowls": 26,
 	"Shaving Cream": 10,
 	"Glue": 4,
 	"Baking Soda": 130,
 	"Contact Solution": 12
 }
-Cleaning_Supplies = {
+CleaningSupplies = {
 	"Surface Cleaner": 12,
 	"Paper Towels": 16,
 	"Clorox Wipes": 13,
