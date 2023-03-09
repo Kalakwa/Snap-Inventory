@@ -46,7 +46,7 @@ CleaningSupplies = {
 	"Swiffer Wipes": 1
 }
 Random = {
-	"Snacks": 39,
+	"Snacks": 12,
 	"Kleenex": 4,
 	"Ziploc Total": 189,
 	"Ziploc Sandwich": 0,
